@@ -1,10 +1,6 @@
 import pandas as pd 
 pd.options.mode.chained_assignment = None 
 
-import numpy as np 
-from matplotlib import pyplot as plt
-from datetime import datetime
-from statsmodels.tsa.seasonal import seasonal_decompose 
 import json
 import os
 
@@ -82,4 +78,4 @@ def getData(db_connection, date_start, date_end, station_name):
 
 if __name__ == "__main__":
     for i in range(2016, 2022):
-        main(i, 'Bintulu New Airport')
+        main(i, 'Beluru')
