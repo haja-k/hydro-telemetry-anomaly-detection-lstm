@@ -78,4 +78,4 @@ def getData(db_connection, date_start, date_end, station_name):
 
 if __name__ == "__main__":
     for i in range(2016, 2022):
-        main(i, 'Beluru')
+        main(i, 'Betong')

@@ -12,3 +12,6 @@ cleaned/
 
 #files
 credential.json
+*.csv
+*.h5
+scaler*
